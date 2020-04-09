@@ -1,3 +1,28 @@
-body{
-  background: pink;
+body {
+  background: white;
+  font-family: 'Josefin Sans', sans-serif;
+  color: #2F2F2F;
+}
+
+section {
+  border-bottom: 2px solid red;
+  min-height: 65vh;
+}
+
+h1{
+font-family: 'Playfair Display', serif;
+  font-size: 54px;
+}
+#main-menu {
+  background: linear-gradient(#FCFAFA,#F8F4F3);
+  height:100%;
+  width: 320px;
+  position: absolute;
+  top: 0;
+  left: -320px;
+  transition: 1s all ease;
+}
+
+#main-menu:target {
+  left: 0;
 }
