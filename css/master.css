@@ -26,3 +26,9 @@ font-family: 'Playfair Display', serif;
 #main-menu:target {
   left: 0;
 }
+
+#open-menu{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
