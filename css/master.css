@@ -20,8 +20,10 @@ section {
 
 h1{
 font-family: 'Playfair Display', serif;
-  font-size: 54px;
+font-size: 54px;
 }
+
+
 #main-menu {
   background: linear-gradient(#FCFAFA,#F8F4F3);
   height:100%;
@@ -54,9 +56,22 @@ font-family: 'Playfair Display', serif;
     width: 100%;
     height : 100%;
     z-index: 998;
-  }  
+  }
 #main-menu{
   position: static;
+}
+#open-menu{
+  display: none;
+}
+
+}
+
+@media (min-width : 3000px) {
+
+#main-menu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
 }
 #open-menu{
   display: none;
@@ -68,30 +83,13 @@ font-family: 'Playfair Display', serif;
 
 
 
-#cercle-container{
-  position: relative;
-  width: 100%;
-  height: 85vh;
-}
-
-#cercle-container > div {
-  position: absolute;
-  top: 50%;
-  left:50%;
-  transform: translateX(-50%) translateY(-50%);
-
-}
 
 
-#cercle-1 {
-    width: 300px;
-    height: 300px;
-    border-radius: 100%;
-    background: linear-gradient(#86330E,#4E1706);
-    /*position: absolute;*/
-    z-index: 1;
-    text-align:center;
-}
+
+
+
+
+
 
 @keyframes cercle-1 {
   from {
@@ -111,14 +109,6 @@ font-family: 'Playfair Display', serif;
 
 
 
-#cercle-2 {
-    width: 260px;
-    height: 260px;
-    border-radius: 100%;
-    background: linear-gradient(#E4B37C,#C47C46);
-    z-index:2;
-
-}
 
 @keyframes cercle-2 {
   from {
@@ -139,14 +129,7 @@ font-family: 'Playfair Display', serif;
 
 
 
-#cercle-3 {
-    width: 220px;
-    height: 220px;
-    border-radius: 100%;
-    background: linear-gradient(#D3DEE0,#A8BABE);
-    z-index:3;
 
-}
 
 @keyframes cercle-3 {
   from {
@@ -164,18 +147,6 @@ font-family: 'Playfair Display', serif;
  }
 
 
-
-
-
-
-#cercle-4 {
-    width: 180px;
-    height: 180px;
-    border-radius: 100%;
-    background: linear-gradient(#F1F2F3,#DFE1E3);
-    z-index: 4;
-
-}
 
 @keyframes cercle-4 {
   from {
