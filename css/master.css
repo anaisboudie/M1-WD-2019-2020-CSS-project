@@ -20,8 +20,10 @@ section {
 
 h1{
 font-family: 'Playfair Display', serif;
-  font-size: 54px;
+font-size: 54px;
 }
+
+
 #main-menu {
   background: linear-gradient(#FCFAFA,#F8F4F3);
   height:100%;
@@ -35,6 +37,7 @@ font-family: 'Playfair Display', serif;
 #main-menu:target {
   left: 0;
 }
+
 
 
 #open-menu{
@@ -62,6 +65,22 @@ font-family: 'Playfair Display', serif;
 }
 
 }
+
+@media (min-width : 3000px) {
+
+#main-menu{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+#open-menu{
+  display: none;
+}
+
+}
+
+
+
 
 
 
