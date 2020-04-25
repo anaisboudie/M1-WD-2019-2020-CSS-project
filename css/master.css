@@ -15,8 +15,10 @@ body {
 
 section {
 
-  min-height: 65vh;
+  min-height: 100vh;
 }
+
+
 
 
 .img-chat{
@@ -139,10 +141,12 @@ top: 60px;
 #main-menu ul{
   display: flex;
   background-color: white;
-  top: 30px;
   position:fixed;
   list-style: none;
   width:100%;
+  height: 60px;
+  z-index: 1200;
+
 }
 
 #open-menu{
@@ -291,3 +295,63 @@ top: 60px;
  animation-timing-function: ease-in;
  animation-iteration-count: infinite;
  }
+
+
+
+
+
+
+
+
+
+
+
+/*section 2  https://la-cascade.io/utiliser-grid-ou-flexbox/*/
+
+
+.wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.cards {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards li {
+  border: 2px solid #490A3D;
+  border-radius:5px;
+  background-color: #BD1550;
+  color: #fff;
+  flex: 1 1 200px;
+}
+
+.cards h2 {
+  background-color: #490A3D;
+  margin: 0;
+  padding: 10px;
+}
+
+.cards p {
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -10px;
+}
+
+.flex li {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /*grid-template-columns: repeat(auto-fill, minmax(200px 1fr));*/
+  grid-gap: 20px;
+}
