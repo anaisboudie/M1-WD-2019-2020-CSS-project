@@ -28,6 +28,14 @@ p {
 }
 
 
+#section03{
+  margin-top: 400px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
 
 
 
@@ -413,7 +421,12 @@ top: 60px;
 
 
 
+#lettre{
+font-size: 64px;
+color: #A7CFF0;
+font-family: bely-display, sans-serif;
 
+}
 
 
 
@@ -425,7 +438,7 @@ top: 60px;
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(5,1fr);
   /*grid-template-columns: repeat(auto-fill, minmax(200px 1fr));*/
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
