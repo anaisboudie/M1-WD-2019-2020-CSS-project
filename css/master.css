@@ -15,14 +15,16 @@ body {
 
 }
 
-
+#section01{
+  max-height: 500px;
+}
 
 #section02{
   margin-bottom: -220px;
 }
 
 p {
-  width: 90%;
+
 
   top: auto;
 }
@@ -379,24 +381,24 @@ top: 60px;
 
 
 
-.cards h2 {
-  display: inline-block;
+
+  .cards h2 {
   text-align: center;
-  color: white;
+  margin: 20px;
+/*  display: inline-block;
+    color: white;
   position: relative;
   left: 40%;
   right: 60%;
   padding-top: 10%;
   display: inline-block;
-
- transform: translateY(-50%);
-
-
- text-align: center;
+ transform: translateY(-50%); */
 
 
 
 }
+
+
 
 
 
@@ -421,8 +423,8 @@ top: 60px;
 
 
 
-#lettre{
-font-size: 64px;
+.lettre{
+font-size: 104px;
 color: #A7CFF0;
 font-family: bely-display, sans-serif;
 
@@ -440,5 +442,13 @@ font-family: bely-display, sans-serif;
   display: grid;
   grid-template-columns: repeat(5,1fr);
   /*grid-template-columns: repeat(auto-fill, minmax(200px 1fr));*/
-  grid-gap: 30px;
+  grid-gap: 20px;
+
+}
+
+.grid:target {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 20px;
+
 }
