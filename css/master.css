@@ -377,11 +377,11 @@ top: 60px;
   color: #fff;
   flex: 1 1 200px;
   box-shadow: 0 5px 24px 0 rgba(0, 0, 0, 0.05);
+transition: 2s all ease-in;
 }
 
-.cards li :hover {
+.cards li:hover {
   background-color: #FAD2DB;
-
 
 
 
@@ -454,7 +454,7 @@ font-family: bely-display, sans-serif;
 
 }
 
-.grid:target {
+#section03:target .grid {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 20px;
